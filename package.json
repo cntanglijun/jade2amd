@@ -1,0 +1,39 @@
+{
+  "name": "jade2amd",
+  "version": "1.0.0",
+  "description": "Compile jade template to amd module",
+  "main": "bin/jade2amd.js",
+  "bin": "bin/jade2amd.js",
+  "scripts": {
+    "test": "jscs bin/jade2amd.js && jshint bin/jade2amd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cntanglijun/jade2amd.git"
+  },
+  "author": {
+    "name": "tanglijun",
+    "email": "869058216@qq.com",
+    "url": "http://f2e-tlj.me"
+  },
+  "homepage": "https://github.com/cntanglijun/jade2amd",
+  "bugs": {
+    "url": "https://github.com/cntanglijun/jade2amd/issues",
+    "email": "869058216@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.5",
+    "fs-promise": "^0.5.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-wrap-amd": "^0.5.0",
+    "map-stream": "0.0.6",
+    "vinyl-fs": "^2.4.2"
+  },
+  "devDependencies": {
+    "jscs": "^2.11.0",
+    "jshint": "^2.9.1"
+  }
+}
