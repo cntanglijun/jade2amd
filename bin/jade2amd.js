@@ -42,7 +42,7 @@ function watcher(handle) {
 }
 
 function watcherHandle(file) {
-  if (!path.extname(file).match(/\.jade/)) {
+  if (!path.extname(file).match(/\.jade$/)) {
     return;
   }
 
