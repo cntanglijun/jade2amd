@@ -1,6 +1,6 @@
 {
   "name": "jade2amd",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Compile jade template to amd module",
   "main": "bin/jade2amd.js",
   "bin": "bin/jade2amd.js",
