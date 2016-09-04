@@ -1,4 +1,6 @@
-# jade2amd
+# jade2amd 
+
+由于 Jade 更名 Pug 我新建了项目 pug2amd 替代这个项目。jade2amd 不再维护。
 
 [![Build Status](https://travis-ci.org/cntanglijun/jade2amd.svg?branch=master)](https://travis-ci.org/cntanglijun/jade2amd)
 
